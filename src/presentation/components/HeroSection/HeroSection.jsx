@@ -1,10 +1,11 @@
 import React from "react";
+import backgroundImage from "../../../assets/images/pexels-4.jpg";
 
 const HeroSection = () => {
   return (
     <div
       className="relative h-[400px] md:h-[500px] flex items-center justify-center bg-cover bg-center text-white"
-      style={{ backgroundImage: "url('src/assets/images/pexels-4.jpg')" }}
+      style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
       <div className="relative text-center px-6">
